@@ -12,7 +12,14 @@
     </header>
 
     <div class="main-container">
+        <?php
+            $page = 'home';
+            if( isset ($_GET['page']) ) {
+                $page = $_GET['page'];
+            }
 
+            $file= './app/templates/' . $page . '.php';
+        ?>
     </div>
 
     <footer class="page-footer">

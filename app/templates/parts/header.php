@@ -1,7 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Jeff
- * Date: 03/10/2017
- * Time: 21:48
- */
+<a href="?page=home" class="menu_items <?php echo ($_GET['page'] == 'home' || !isset($_GET['page'])) ? 'active' : null; ?>">à propos</a>
+<a href="?page=portfolio" class="menu_items <?php echo (isset($_GET['page']) && $_GET['page'] == 'portfolio' ) ? 'active' : null; ?>">portfolio</a>
+<a href="?page=contact" class="menu_items <?php echo (isset($_GET['page']) && $_GET['page'] == 'contact' ) ? 'active' : null; ?>">contact</a>
