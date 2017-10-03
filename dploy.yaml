@@ -1,11 +1,11 @@
 prod:
     scheme: ftp
-    host: 
-    port: 
-    user: 
-    pass: 
+    host: ftp.cluster021.hosting.ovh.net
+    port: 21
+    user: mathieulry
+    pass: mathieu9
     check: true
-    path:
+    path: 
         remote: /
     privateKey: ~/.ssh/id_rsa
     publicKey: ~/.ssh/id_rsa.pub
