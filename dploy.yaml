@@ -1,0 +1,12 @@
+prod:
+    scheme: ftp
+    host: 
+    port: 
+    user: 
+    pass: 
+    check: true
+    path:
+        remote: /
+    privateKey: ~/.ssh/id_rsa
+    publicKey: ~/.ssh/id_rsa.pub
+    exclude: ["dploy.yaml"]
