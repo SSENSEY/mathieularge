@@ -18,7 +18,13 @@
                 $page = $_GET['page'];
             }
 
-            $file= './app/templates/' . $page . '.php';
+            $file= 'app/templates/' . $page . '.php';
+
+            if(file_exists($file)) {
+                include $file;
+            } else {
+                include 'app/templates/404.php';
+            }
         ?>
     </div>
 
