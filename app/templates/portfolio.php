@@ -1,3 +1,3 @@
 portfolio
 
-<a href="?page=cosyandchic">cosy test</a>
+<a href="?page=projects&nom=cosyandchic">cosy test</a>

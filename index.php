@@ -7,9 +7,7 @@
     <meta name="description" content="Mathieu Large, développeur front-end et webdesigner chez Ingénie. Mon portfolio contient toutes mes réalisations.">
     <meta name="keywords" content="mathieu large,sensey,ssensey,ingenie,graphisme,graphiste,design,infographie,logo,website,webdesign,designer">
     <meta name="author" content="Mathieu Large">
-    <link rel="stylesheet" href="app/ressources/css/reset.css">
-    <link rel="stylesheet" href="app/ressources/css/variables.scss">
-    <link rel="stylesheet" href="app/ressources/css/stylesheet.scss">
+    <link rel="stylesheet" href="app/ressources/css/stylesheet.css">
     <link rel="stylesheet" href="app/ressources/fonts/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 </head>
@@ -27,6 +25,7 @@
             }
 
             $file= 'app/templates/' . $page . '.php';
+            if ($_GET['nom']) $file = "app/templates/projects/" . $_GET['nom'] . '.php';
 
             if(file_exists($file)) {
                 include $file;
