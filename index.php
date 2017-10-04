@@ -1,17 +1,25 @@
 <!doctype html>
 <html>
 <head>
+    <meta charset="UTF-8"/>
     <title>Mathieu Large — Développeur & Webdesigner</title>
-    <meta charset="utf-8"/>
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mathieu Large, développeur front-end et webdesigner chez Ingénie. Mon portfolio contient toutes mes réalisations.">
+    <meta name="keywords" content="mathieu large,sensey,ssensey,ingenie,graphisme,graphiste,design,infographie,logo,website,webdesign,designer">
+    <meta name="author" content="Mathieu Large">
+    <link rel="stylesheet" href="app/ressources/css/reset.css">
+    <link rel="stylesheet" href="app/ressources/css/variables.scss">
+    <link rel="stylesheet" href="app/ressources/css/stylesheet.scss">
+    <link rel="stylesheet" href="app/ressources/fonts/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 </head>
 
 <body>
-    <header class="page-header">
+    <header class="header">
         <?php include 'app/templates/parts/header.php'; ?>
     </header>
 
-    <div class="main-container">
+    <main class="container">
         <?php
             $page = 'home';
             if( isset ($_GET['page']) ) {
@@ -26,12 +34,16 @@
                 include 'app/templates/404.php';
             }
         ?>
-    </div>
+    </main>
 
-    <footer class="page-footer">
+    <footer class="footer">
         <?php include 'app/templates/parts/footer.php'; ?>
     </footer>
 
+    <script src="app/ressources/js/jquerry.js"></script>
+    <script src="app/ressources/js/bootstrap.min.js"></script>
+    <script src="app/ressources/js/animated-headline.js"></script>
+    <script src="app/ressources/js/isotope.pkgd.min.js"></script>
     <script src="app/ressources/js/script.js"></script>
 </body>
 </html>
