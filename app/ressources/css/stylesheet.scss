@@ -182,64 +182,66 @@ header {
 }
 
 main.container-main {
-  margin-top: -80px;
-  .home {
-    text-align: center;
-    display: table;
-    height: 100vh;
-    width: 100%;
-    .anim {
-      display: table-cell;
-      vertical-align: middle;
+  .top80 {
+    margin-top: -80px;
+    .home {
+      text-align: center;
+      display: table;
+      height: 100vh;
       width: 100%;
-      .ml12 {
-        font-weight: 700;
-        font-size: 4em;
-        text-transform: uppercase;
-        letter-spacing: 0.5em;
-        color: $color1;
-        margin-bottom: 1em;
+      .anim {
+        display: table-cell;
+        vertical-align: middle;
+        width: 100%;
+        .ml12 {
+          font-weight: 700;
+          font-size: 4em;
+          text-transform: uppercase;
+          letter-spacing: 0.5em;
+          color: $color1;
+          margin-bottom: 1em;
 
-        .letter {
-          display: inline-block;
-          line-height: 1em;
+          .letter {
+            display: inline-block;
+            line-height: 1em;
+          }
+        }
+
+        h2 {
+          color: #999999;
+          letter-spacing: 4px;
+          text-transform: uppercase;
         }
       }
-
-      h2 {
-        color: #999999;
-        letter-spacing: 4px;
-        text-transform: uppercase;
+      .down {
+        position: absolute;
+        width: 22px;
+        height: 42px;
+        bottom: 40px;
+        left: 50%;
+        margin-left: -12px;
+        border-radius: 15px;
+        border: 2px solid #888;
+        -webkit-animation: intro 1s;
+        animation: intro 1s;
+        .scroll {
+          display: block;
+          width: 3px;
+          height: 3px;
+          margin: 6px auto;
+          border-radius: 4px;
+          background: #888;
+          -webkit-animation: finger 2s infinite;
+          animation: finger 2s infinite;
+        }
       }
     }
-    .down {
-      position: absolute;
-      width: 22px;
-      height: 42px;
-      bottom: 40px;
-      left: 50%;
-      margin-left: -12px;
-      border-radius: 15px;
-      border: 2px solid #888;
-      -webkit-animation: intro 1s;
-      animation: intro 1s;
-      .scroll {
-        display: block;
-        width: 3px;
-        height: 3px;
-        margin: 6px auto;
-        border-radius: 4px;
-        background: #888;
-        -webkit-animation: finger 2s infinite;
-        animation: finger 2s infinite;
-      }
-    }
-  }
-  .portfolio-div {
-    .portfolio {
-      .portfolio_container {
-        div {
-          padding: 0;
+    .portfolio-div {
+      .portfolio {
+        .portfolio_container {
+          div {
+            padding: 0;
+          }
         }
       }
     }
@@ -429,4 +431,40 @@ main.container-main {
 .portfolio-inner {
   padding-bottom: 0 !important;
   padding-top: 55px;
+}
+
+footer {
+  .foottext {
+    padding: 2em;
+    .legal {
+      display: inline-block;
+      width: 49%;
+      text-align: left;
+      vertical-align: top;
+    }
+    .socials {
+      display: inline-block;
+      width: 49%;
+      text-align: right;
+      vertical-align: top;
+      font-size: 1.2em;
+      li {
+        display: inline-block;
+        padding: 0 .3em;
+        a {
+          font-family: 'FontAwesome';
+          text-decoration: none;
+          color: $color1;
+          transition: 0.3s;
+          -webkit-transition: 0.3s;
+          -moz-transition: 0.3s;
+          -o-transition: 0.3s;
+
+          &:hover {
+            color: $color3;
+          }
+        }
+      }
+    }
+  }
 }

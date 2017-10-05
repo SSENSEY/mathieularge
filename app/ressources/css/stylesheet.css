@@ -184,32 +184,32 @@ header .menutop {
           header .menutop .menu-big ul.socials li a:hover {
             color: #223a5e; }
 
-main.container-main {
+main.container-main .top80 {
   margin-top: -80px; }
-  main.container-main .home {
+  main.container-main .top80 .home {
     text-align: center;
     display: table;
     height: 100vh;
     width: 100%; }
-    main.container-main .home .anim {
+    main.container-main .top80 .home .anim {
       display: table-cell;
       vertical-align: middle;
       width: 100%; }
-      main.container-main .home .anim .ml12 {
+      main.container-main .top80 .home .anim .ml12 {
         font-weight: 700;
         font-size: 4em;
         text-transform: uppercase;
         letter-spacing: 0.5em;
         color: #393939;
         margin-bottom: 1em; }
-        main.container-main .home .anim .ml12 .letter {
+        main.container-main .top80 .home .anim .ml12 .letter {
           display: inline-block;
           line-height: 1em; }
-      main.container-main .home .anim h2 {
+      main.container-main .top80 .home .anim h2 {
         color: #999999;
         letter-spacing: 4px;
         text-transform: uppercase; }
-    main.container-main .home .down {
+    main.container-main .top80 .home .down {
       position: absolute;
       width: 22px;
       height: 42px;
@@ -220,7 +220,7 @@ main.container-main {
       border: 2px solid #888;
       -webkit-animation: intro 1s;
       animation: intro 1s; }
-      main.container-main .home .down .scroll {
+      main.container-main .top80 .home .down .scroll {
         display: block;
         width: 3px;
         height: 3px;
@@ -229,7 +229,7 @@ main.container-main {
         background: #888;
         -webkit-animation: finger 2s infinite;
         animation: finger 2s infinite; }
-  main.container-main .portfolio-div .portfolio .portfolio_container div {
+  main.container-main .top80 .portfolio-div .portfolio .portfolio_container div {
     padding: 0; }
 
 @-webkit-keyframes intro {
@@ -382,5 +382,32 @@ main.container-main {
 .portfolio-inner {
   padding-bottom: 0 !important;
   padding-top: 55px; }
+
+footer .foottext {
+  padding: 2em; }
+  footer .foottext .legal {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+    vertical-align: top; }
+  footer .foottext .socials {
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+    vertical-align: top;
+    font-size: 1.2em; }
+    footer .foottext .socials li {
+      display: inline-block;
+      padding: 0 .3em; }
+      footer .foottext .socials li a {
+        font-family: 'FontAwesome';
+        text-decoration: none;
+        color: #393939;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s; }
+        footer .foottext .socials li a:hover {
+          color: #223a5e; }
 
 /*# sourceMappingURL=stylesheet.css.map */
