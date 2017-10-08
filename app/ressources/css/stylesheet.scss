@@ -134,6 +134,9 @@ header {
         padding: 150px 0 0;
         font-size: 1.4em;
         font-weight: 400;
+        @media screen and (max-width: 768px) {
+          padding: 1em 0 0;
+        }
         li {
           line-height: 70px;
           a {
@@ -201,6 +204,22 @@ main.container-main {
           color: $color1;
           margin-bottom: 1em;
 
+          @media screen and (max-width: 1050px) {
+            font-size: 3em;
+          }
+
+          @media screen and (max-width: 810px) {
+            font-size: 2em;
+          }
+
+          @media screen and (max-width: 530px) {
+            font-size: 1.5em;
+          }
+
+          @media screen and (max-width: 430px) {
+            font-size: 1em;
+          }
+
           .letter {
             display: inline-block;
             line-height: 1em;
@@ -211,6 +230,7 @@ main.container-main {
           color: #999999;
           letter-spacing: 4px;
           text-transform: uppercase;
+          line-height: 30px;
         }
       }
       .down {
@@ -296,9 +316,6 @@ main.container-main {
   }
 }
 
-/* portfolio section
-==================================================*/
-
 .portfolio .categories-grid span {
   font-size: 30px;
   margin-bottom: 30px;
@@ -308,6 +325,10 @@ main.container-main {
 .portfolio .categories-grid .categories ul li {
   list-style: none;
   margin: 20px 0;
+
+  @media screen and (max-width: 530px) {
+    margin: 5px 0;
+  }
 }
 
 .portfolio .categories-grid .categories ul li a {
@@ -325,10 +346,10 @@ main.container-main {
 }
 
 .portfolio .categories-grid .categories ul li a.active {
-  margin-left: 0;
-  background-color: #ffbf00;
-  padding: 0px 20px;
-  color: white;
+  margin: 0;
+  background-color: $color3;
+  padding: 5px 20px;
+  color: #fff;
   border-radius: 25px;
   text-decoration: none;
 }
@@ -411,7 +432,8 @@ main.container-main {
 }
 
 .portfolio .categories-grid .categories ul li {
-  float: left;
+  display: inline-block;
+  padding: 5px 0;
 }
 
 .portfolio .categories-grid .categories ul li a {
@@ -425,7 +447,7 @@ main.container-main {
   display: inline-block;
   margin: 0 auto;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 
 .portfolio-inner {
@@ -436,21 +458,38 @@ main.container-main {
 footer {
   .foottext {
     padding: 2em;
+    @media screen and (max-width: 470px) {
+      padding: 1em;
+    }
     .legal {
       display: inline-block;
       width: 49%;
       text-align: left;
       vertical-align: top;
+      @media screen and (max-width: 470px) {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+      }
     }
-    .socials {
+    > .socials {
       display: inline-block;
       width: 49%;
       text-align: right;
       vertical-align: top;
       font-size: 1.2em;
+
+      @media screen and (max-width: 470px) {
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+
       li {
         display: inline-block;
         padding: 0 .3em;
+        font-size: 1.2em;
         a {
           font-family: 'FontAwesome';
           text-decoration: none;
@@ -467,4 +506,36 @@ footer {
       }
     }
   }
+}
+
+.portfolio-div {
+  .portfolio {
+    .portfolio_container {
+      div {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.tetiere {
+  color: #333;
+  padding: 75px 0 75px;
+  background: -webkit-linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portfolio.jpg);
+  background: linear-gradient( rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(../img/portfolio.jpg);
+  background-attachment: fixed;
+  background-position: top center;
+  text-align: center;
+}
+
+.tetiere > h1 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #999;
+    line-height: 50px;
+
+    @media screen and (max-width: 380px) {
+      font-size: 3em;
+    }
 }

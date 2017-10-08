@@ -1,7 +1,7 @@
 <div class="menutop">
     <div class="logo">
         <a href="/">
-            <img src="logo.png" alt="LOGO">
+            <img src="app/ressources/img/logo.png" alt="Logo Mathieu Large">
         </a>
     </div>
     <div class="button-menu">
