@@ -11,6 +11,21 @@
     <link rel="stylesheet" href="app/ressources/css/stylesheet.css">
     <link rel="stylesheet" href="app/ressources/fonts/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="app/ressources/img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="app/ressources/img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="app/ressources/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="app/ressources/img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="app/ressources/img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="app/ressources/img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="app/ressources/img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="app/ressources/img/favicon/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="app/ressources/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="app/ressources/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="app/ressources/img/favicon/manifest.json">
+    <link rel="mask-icon" href="app/ressources/img/favicon/safari-pinned-tab.svg" color="#223a5e">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="app/ressources/img/favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
