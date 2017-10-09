@@ -14,6 +14,30 @@ $('.button-menu').on('click', function() {
     }
 });
 
+$('.form-group-1').on('click', function() {
+    if ($('.form-group-1').hasClass('active')) {
+        $('.form-group-1').removeClass('active');
+    } else {
+        $('.form-group-1').addClass('active');
+    }
+});
+
+$('.form-group-2').on('click', function() {
+    if ($('.form-group-2').hasClass('active')) {
+        $('.form-group-2').removeClass('active');
+    } else {
+        $('.form-group-2').addClass('active');
+    }
+});
+
+$('.form-group-3').on('click', function() {
+    if ($('.form-group-3').hasClass('active')) {
+        $('.form-group-3').removeClass('active');
+    } else {
+        $('.form-group-3').addClass('active');
+    }
+});
+
 // Wrap every letter in a span
 $('.ml12').each(function(){
     $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));

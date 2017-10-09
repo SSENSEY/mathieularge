@@ -11,7 +11,7 @@
     <div class="menu-big">
         <ul class="link">
             <li><a href="?page=home" class="<?php echo (!isset($_GET['page']) || $_GET['page'] == 'home') ? '' : null; ?>">Accueil</a></li>
-            <li><a href="?page=about" class="<?php echo (isset($_GET['page']) && $_GET['page'] == 'about' ) ? '' : null; ?>">A propos</a></li>
+            <li><a href="?page=about" class="<?php echo (isset($_GET['page']) && $_GET['page'] == 'about' ) ? '' : null; ?>">À propos</a></li>
             <li><a href="?page=portfolio" class="<?php echo (isset($_GET['page']) && $_GET['page'] == 'about' ) ? '' : null; ?>">Porfolio</a></li>
             <li><a href="?page=contact" class="<?php echo (isset($_GET['page']) && $_GET['page'] == 'about' ) ? '' : null; ?>">Contact</a></li>
         </ul>
