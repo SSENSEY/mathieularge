@@ -4,12 +4,10 @@
 
 <div class="container-about">
     <div class="photo">
-        <img src="app/ressources/img/default.jpg" alt="Phot de Mathieu Large">
+        <img src="app/ressources/img/moi.jpg" alt="Phot de Mathieu Large">
     </div>
     <div class="presentation">
     <h1>Mathieu Large</h1>
-        <h2>Web développeurr & Web designer</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pretium sagittis lorem, hendrerit semper eros imperdiet sit amet. Aenean a nisi nec eros luctus hendrerit. Nullam at tellus eu turpis egestas aliquet non vitae sapien. Curabitur at varius ex. Nunc lobortis ornare sem non mattis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque quis congue mi, eu ultrices neque. Praesent lacinia malesuada enim, vel aliquet orci tincidunt a. Sed condimentum nisi nisi. <br/>
-            In sed libero fringilla, tempus mauris non, elementum diam. Nulla maximus, dui et auctor porttitor, tellus lacus feugiat diam, in lobortis lacus nisi ac lorem. Mauris consectetur ut eros nec auctor. In ultricies purus et neque elementum tincidunt. Maecenas at ex a felis posuere suscipit vitae sed leo. Fusce porttitor vel eros id mattis. Fusce eu enim ut justo vulputate vehicula. Donec auctor vulputate tellus ut scelerisque. Phasellus ex erat, commodo quis metus at, facilisis malesuada felis. Proin quis hendrerit tortor.</p>
-    </div>
+        <h2>Web développeur & Web designer</h2>
+        <p>Je suis actuellement en contrat de professionnalisation dans l'entreprise <a href="https://www.ingenie.fr/" target="_blank">Ingénie</a> situé au Cheylas. Je réalise la maquette puis le développement front-end de site pour des clients spécialisés dans le domaine du tourisme.<br/>J'ai réalisé un <a href="http://mmi.univ-savoie.fr/site/" target="_blank">DUT MMI</a> (Métiers du Multimédia et de l'Internet) à Chambéry. Aujourd'hui, je suis la formation Graphiste Concepteur à l'<a href="http://www.afip-formations.com/ecole-superieure-lyon-villeurbanne/ecole-arts-appliques/graphiste-concepteur.html" target="_blank">AFIP</a>.</div>
 </div>

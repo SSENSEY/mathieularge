@@ -18,12 +18,12 @@
 
             <div class="no-padding portfolio_container clearfix">
                 <div class="col-md-4 col-sm-6 dev">
-                    <a href="?page=projects&nom=encoursderedaction" class="portfolio_item">
+                    <a href="?page=projects&nom=mgm" class="portfolio_item">
                         <img src="app/ressources/img/portfolio/mgn.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
                                 <div class="item_info">
-                                    <span>MGN Réservation</span>
+                                    <span>MGM Réservation</span>
                                     <em>Développement Front</em>
                                 </div>
                             </div>
@@ -32,7 +32,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 dev">
-                    <a href="?page=projects&nom=encoursderedaction" class="portfolio_item">
+                    <a href="?page=projects&nom=saintclaude" class="portfolio_item">
                         <img src="app/ressources/img/portfolio/saint-claude.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -46,7 +46,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-12 dev webdesign">
-                    <a href="?page=projects&nom=encoursderedaction" class="portfolio_item">
+                    <a href="?page=projects&nom=grandarmagnac" class="portfolio_item">
                         <img src="app/ressources/img/portfolio/armagnac.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -60,7 +60,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 webdesign dev">
-                    <a href="?page=projects&nom=encoursderedaction" class="portfolio_item">
+                    <a href="?page=projects&nom=alpedhuez" class="portfolio_item">
                         <img src="app/ressources/img/portfolio/huez.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -88,7 +88,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-12 webdesign">
-                    <a href="?page=projects&nom=encoursderedaction" class="portfolio_item">
+                    <a href="?page=projects&nom=learninglab" class="portfolio_item">
                         <img src="app/ressources/img/portfolio/lab.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -102,7 +102,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 dev dev webdesign">
-                    <a href="?page=projects&nom=encoursderedaction" class="portfolio_item">
+                    <a href="?page=projects&nom=coindufeu" class="portfolio_item">
                         <img src="app/ressources/img/portfolio/feu.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -116,7 +116,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 dev">
-                    <a href="?page=projects&nom=encoursderedaction" class="portfolio_item">
+                    <a href="?page=projects&nom=saintjeandesixt" class="portfolio_item">
                         <img src="app/ressources/img/portfolio/sixt.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">
@@ -130,7 +130,7 @@
                 </div>
 
                 <div class="col-md-4 col-sm-6 dev">
-                    <a href="?page=projects&nom=encoursderedaction" class="portfolio_item">
+                    <a href="?page=projects&nom=vag" class="portfolio_item">
                         <img src="app/ressources/img/portfolio/vag.jpg" alt="image" class="img-responsive" />
                         <div class="portfolio_item_hover">
                             <div class="portfolio-border clearfix">

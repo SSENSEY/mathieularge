@@ -26,6 +26,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="app/ressources/img/favicon/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
+    <meta name="google-site-verification" content="7abmRsIqlr-NoAYx87hSwQ8kIpT9iExzl0ZAetP5w2E" />
 </head>
 
 <body>
@@ -59,5 +60,15 @@
     <script src="app/ressources/js/isotope.pkgd.min.js"></script>
     <script src="app/ressources/js/anime.min.js"></script>
     <script src="app/ressources/js/script.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91211642-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-91211642-2');
+    </script>
 </body>
 </html>

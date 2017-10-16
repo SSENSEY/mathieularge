@@ -475,7 +475,7 @@ footer .foottext {
       margin: 1em auto; } }
   .container-about .photo {
     display: table-cell;
-    width: 50%;
+    width: 33%;
     padding: 0 1em;
     vertical-align: top; }
     @media screen and (max-width: 768px) {
@@ -484,11 +484,10 @@ footer .foottext {
         width: 100%;
         margin-bottom: 2em; } }
     .container-about .photo img {
-      width: 100%;
-      max-height: 400px; }
+      width: 100%; }
   .container-about .presentation {
     display: table-cell;
-    width: 50%;
+    width: 66%;
     padding: 0 1em;
     vertical-align: top; }
     @media screen and (max-width: 768px) {
@@ -507,7 +506,18 @@ footer .foottext {
       font-weight: 500;
       margin-bottom: 40px; }
     .container-about .presentation p {
-      color: #999999; }
+      color: #999999;
+      line-height: 30px; }
+      .container-about .presentation p a {
+        font-weight: 600;
+        color: #223a5e;
+        transition: 0.3s;
+        -webkit-transition: 0.3s;
+        -moz-transition: 0.3s;
+        -o-transition: 0.3s; }
+        .container-about .presentation p a:hover {
+          opacity: 0.6;
+          text-decoration: none; }
       .container-about .presentation p br {
         line-height: 40px; }
 
@@ -617,6 +627,10 @@ footer .foottext {
   @media screen and (max-width: 350px) {
     .quatre h1 {
       font-size: 3em; } }
+
+.anim .ml12 span.tropdelove:before {
+  content: '\f0c0';
+  font-family: 'FontAwesome'; }
 
 .quatre .glitch_word_box {
   height: 100px;
@@ -795,5 +809,13 @@ footer .foottext {
   .button404 .button:hover {
     background-color: #393939;
     text-decoration: none; }
+
+h1.referral {
+  display: none !important; }
+
+.j-stacker-wrapper {
+  margin-top: 80px !important;
+  width: 1440px !important;
+  margin: 40px auto !important; }
 
 /*# sourceMappingURL=stylesheet.css.map */
